@@ -1,0 +1,52 @@
+/* / 768px media width/ */
+@media only screen and (max-width: 768px) {
+    #intro-background {
+        h1 {
+            font-size: 30px !important;
+        }
+        h2 {
+            font-size: 25px !important;
+        }
+    }
+    #customer-logo {
+        flex-wrap: wrap
+    }
+    #creation-background {
+        .container > div {
+            grid-template-columns: 1fr;
+            text-align: center;
+            h2 {
+                margin-top: 50px;
+            }
+        }
+    }
+
+    form {
+        .form-group {
+            flex-direction: column;
+            align-items: center;    
+            width: 80%;
+
+            input {
+                width: 100%;
+                margin: 35px 0px;
+            }
+
+            button {
+                padding: 15px 0px;
+          
+            }
+        }
+    }
+
+    .footer-background {
+        height: 95vh ! important;
+    }
+
+}
+@media only screen and (max-width: 1200px) {
+    #skewed-background {
+        background-size: 200% !important;
+       
+    }
+}

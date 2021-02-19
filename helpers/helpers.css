@@ -1,0 +1,28 @@
+.skewed-block {
+  transform: skew(0deg, -5deg);
+}
+.directed-block {
+  transform: skew(0deg, 5deg);
+}
+form {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0px;
+}
+form .form-group {
+  width: 54%;
+  display: flex;
+}
+form .form-group input {
+  padding: 25px 10px;
+}
+form .form-group button {
+  background-color: #3fa2db;
+  width: 70%;
+  color: #ffff;
+  padding: 6px 0px;
+  transition-duration: 0.1s;
+}
+form .form-group button:hover {
+  background-color: #00afefda;
+}

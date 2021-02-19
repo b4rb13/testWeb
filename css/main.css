@@ -1,0 +1,173 @@
+#intro-background {
+  background-color: indigo;
+  width: 100%;
+}
+#intro-background .container {
+  color: #fff;
+  text-align: center;
+}
+#intro-background .container > h2 {
+  padding: 95px 0px 50px 0px;
+  font-weight: 400;
+  font-size: 30px;
+}
+#intro-background .container > h1 {
+  font-size: 40px;
+  letter-spacing: 0.4px;
+}
+#intro-background .container > p {
+  padding: 35px 0px 95px 0px;
+  font-weight: 100;
+}
+#customer-background .container {
+  text-align: center;
+  padding: 120px 0px;
+}
+#customer-background .container > p {
+  font-size: 24px;
+  line-height: 29px;
+}
+#customer-background #customer-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#customer-background #customer-logo .logo-client {
+  margin-top: 50px;
+}
+#customer-background #customer-logo .logo-client .j-svg-logo {
+  width: 120px;
+  height: 120px;
+  background-position: 59.349823% 29.81067053% !important;
+  background-repeat: no-repeat !important;
+  transition: 0.5s;
+}
+#customer-background #customer-logo .logo-client .j-svg-logo:hover {
+  transform: scale(1.07);
+}
+#customer-background #customer-logo .logo-client .j-svg-logo-1 {
+  background: url('../images/partners/walmart.svg');
+}
+#customer-background #customer-logo .logo-client .j-svg-logo-2 {
+  background: url('../images/partners/bbb.svg');
+}
+#customer-background #customer-logo .logo-client .j-svg-logo-3 {
+  background: url('../images/partners/ernest-brothers.svg');
+}
+#customer-background #customer-logo .logo-client .j-svg-logo-4 {
+  background: url('../images/partners/warner-brothers.svg');
+}
+#customer-background #customer-logo .logo-client .j-svg-logo-5 {
+  background: url('../images/partners/mini.svg');
+}
+#subscription-background {
+  height: 80vh;
+  min-height: 550px;
+}
+#subscription-background > #skewed-block {
+  height: 100%;
+  overflow: hidden;
+}
+#subscription-background > #skewed-block #skewed-background {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/background/image-we-work@2x.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: skew(0deg, 5deg) scale(1.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#subscription-background > #skewed-block #skewed-background .container {
+  text-align: center;
+  z-index: 99;
+  position: relative;
+  transform: scale(0.7);
+  color: #fff;
+}
+#subscription-background > #skewed-block #skewed-background .container h2 {
+  font-size: 40px;
+}
+#subscription-background > #skewed-block #skewed-background .container p {
+  font-size: 20px;
+  margin: 35px 0px;
+}
+#subscription-background #background-color {
+  background-color: rgba(76, 0, 130, 0.598);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+}
+#creation-background {
+  padding: 100px 0px;
+}
+#creation-background .container {
+  padding: 20px;
+}
+#creation-background .container > div {
+  display: grid;
+  justify-content: space-around;
+  padding: 70px 50px;
+  grid-template-columns: 35% 40%;
+}
+#creation-background .container > div h2 {
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+#creation-background .container > div p {
+  letter-spacing: 1px;
+}
+.footer-background {
+  width: 100%;
+  min-height: 400px;
+  background-color: indigo;
+}
+.footer-background .footer-block {
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  background-color: indigo;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.footer-background .footer-block .container {
+  transform: skew(0deg, 6deg) translate(0px, 100px);
+}
+.footer-background .footer-block .container h2 {
+  font-size: 26px;
+  font-weight: 100;
+}
+.skewed-block {
+  transform: skew(0deg, -5deg);
+}
+.directed-block {
+  transform: skew(0deg, 5deg);
+}
+form {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0px;
+}
+form .form-group {
+  width: 54%;
+  display: flex;
+}
+form .form-group input {
+  padding: 25px 10px;
+}
+form .form-group button {
+  background-color: #3fa2db;
+  width: 70%;
+  color: #ffff;
+  padding: 6px 0px;
+  transition-duration: 0.1s;
+}
+form .form-group button:hover {
+  background-color: #00afefda;
+}
